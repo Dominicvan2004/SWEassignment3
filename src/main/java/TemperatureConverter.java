@@ -8,5 +8,9 @@ public class TemperatureConverter {
 		return(((fahrenheit-32)*5)/9);
 	}
 
+	public double celciusToKelvin(double celcius){
+		return(celcius+273.15);
+	}
+
 	
 }
