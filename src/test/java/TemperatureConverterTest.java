@@ -7,17 +7,17 @@ class TemperatureConverterTest {
 	@Test
 	void celciusToFarenheit() {
         TemperatureConverter converter = new TemperatureConverter();
-        assertEquals(39.3, converter.celsiusToFahrenheit(4));
+        assertEquals(39.2, converter.celsiusToFahrenheit(4));
 	}
 	@Test
 	void fahrenheitToCelsius() {
         TemperatureConverter converter = new TemperatureConverter();
-        assertEquals(3, converter.fahrenheitToCelsius(39.2));
+        assertEquals(5, converter.fahrenheitToCelsius(41));
 	}
     @Test 
     void celciusToKelvin() {
         TemperatureConverter converter = new TemperatureConverter();
-        assertEquals(0, converter.celciusToKelvin(0));
+        assertEquals(273.15, converter.celciusToKelvin(0));
 
     }
 
