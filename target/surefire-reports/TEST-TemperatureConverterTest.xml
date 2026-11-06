@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TemperatureConverterTest" time="0.055" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TemperatureConverterTest" time="0.051" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Owner\AppData\Local\Temp\surefire9952602072849754634\surefirebooter-20261105170043202_3.jar C:\Users\Owner\AppData\Local\Temp\surefire9952602072849754634 2026-11-05T17-00-43_093-jvmRun1 surefire-20261105170043202_1tmp surefire_0-20261105170043202_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Owner\AppData\Local\Temp\surefire16055913837409471034\surefirebooter-20261105170403552_3.jar C:\Users\Owner\AppData\Local\Temp\surefire16055913837409471034 2026-11-05T17-04-03_444-jvmRun1 surefire-20261105170403552_1tmp surefire_0-20261105170403552_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Owner\Documents\GitHub\SWEassignment3\target\test-classes;C:\Users\Owner\Documents\GitHub\SWEassignment3\target\classes;C:\Users\Owner\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Owner\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Owner\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Owner\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Owner\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Owner\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Owner\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Owner\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Owner\AppData\Local\Temp\surefire9952602072849754634\surefirebooter-20261105170043202_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Owner\AppData\Local\Temp\surefire16055913837409471034\surefirebooter-20261105170403552_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+9-LTS"/>
@@ -59,33 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="celciusToFarenheit" classname="TemperatureConverterTest" time="0.033">
-    <failure message="expected: &lt;32.0&gt; but was: &lt;-32.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <32.0> but was: <-32.0>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:885)
-	at TemperatureConverterTest.celciusToFarenheit(TemperatureConverterTest.java:10)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="fahrenheitToCelsius" classname="TemperatureConverterTest" time="0.001"/>
-  <testcase name="celciusToKelvin" classname="TemperatureConverterTest" time="0.001">
-    <failure message="expected: &lt;273.15&gt; but was: &lt;273.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <273.15> but was: <273.0>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:885)
-	at TemperatureConverterTest.celciusToKelvin(TemperatureConverterTest.java:20)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
+  <testcase name="celciusToFarenheit" classname="TemperatureConverterTest" time="0.03"/>
+  <testcase name="fahrenheitToCelsius" classname="TemperatureConverterTest" time="0.0"/>
+  <testcase name="celciusToKelvin" classname="TemperatureConverterTest" time="0.001"/>
 </testsuite>
